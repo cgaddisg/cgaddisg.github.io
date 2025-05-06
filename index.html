@@ -1,26 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset ="UTF-8"
-        <title>Home</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renewed Salon + Co</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
 
-    <main>
-     <h1> Renewed Salon and Co.</h1>
-     <img src="Salon Logo.png" alt="Logo">  
-    </main>
+    header {
+      padding: 30px 20px 10px;
+    }
 
-    <script src="js/script.js"></script>
+    header h1 {
+      font-size: 2em;
+      font-weight: 300;
+      margin: 0;
+    }
 
-    </body>
+    header p {
+      font-size: 1em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 5px;
+      color: #666;
+    }
+
+    nav {
+      margin: 20px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin: 40px 20px;
+    }
+
+    .images img {
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>welcome to</h1>
+    <p>Renewed Salon + Co</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+  </nav>
+
+  <div class="images">
+    <img src="images/interior.jpg" alt="Salon Interior">
+    <img src="images/styling.jpg" alt="Hair Styling">
+  </div>
+</body>
 </html>
-
