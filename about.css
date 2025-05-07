@@ -1,22 +1,6 @@
 /* about.css */
-
-.about-section {
-    padding: 30px;
-    background-color: #eee3dc; 
-    border-radius: 8px;
-    margin-bottom: 20px;
+body {
+    background-color: #eee3dc;
 }
-
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; 
-    object-fit: cover; 
-    margin-bottom: 15px;
-}
-
-.mission-statement {
-    font-style: italic;
-    color: #6c757d; /* A slightly darker gray */
-}
+    
 
